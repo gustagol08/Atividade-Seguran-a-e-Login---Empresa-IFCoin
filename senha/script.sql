@@ -25,3 +25,6 @@ CREATE TABLE HistoricoSenha (
 
 INSERT INTO Usuario (nomeUsuario, senha, dataCriacao) VALUES ('Geison', 'senha123', '2025-03-13');
 insert into historicosenha (idUsuario, senhaAntiga) values (1, 'senha123');
+
+select * from usuario;
+select * from historicosenha;
